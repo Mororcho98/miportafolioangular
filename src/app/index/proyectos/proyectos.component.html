@@ -1,0 +1,27 @@
+<!--Proyectos-->
+<h2 clas="title-proyectos">Proyectos</h2>
+<hr>
+<section id="Proyectos" class="proyectos">
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="" *ngFor="let proyecto of proyectos">
+        <img [src]="proyecto.imagen" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>{{proyecto.nombre}}</h5>
+          <hr class="portafolio">
+          <p>{{proyecto.fecha}}</p>
+          <h6>{{proyecto.link}}</h6>
+        </div>
+      </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</section>

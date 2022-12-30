@@ -1,0 +1,17 @@
+i.fa-solid.fa-square-pen.fa-2xl.banner-icon{
+    color: rgb(255, 255, 255);
+    padding:0.50rem;
+    padding-top: 2rem;
+  }
+  i.fa-solid.fa-square-pen.fa-2xl.banner-icon:hover{
+    color: rgb(224, 200, 19);
+  }
+  i.fa-solid.fa-square-xmark.fa-2xl.banner-icon-delete{
+    color:rgb(253, 253, 253);
+    padding: 0.50rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+  i.fa-solid.fa-square-xmark.fa-2xl.banner-icon-delete:hover{
+    color:rgb(202, 8, 8); 
+  } 

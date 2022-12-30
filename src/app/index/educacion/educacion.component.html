@@ -1,0 +1,19 @@
+<!--Educacion-->
+<h2 clas="title-educacion">Educacion</h2>
+<hr>
+<section id="Educacion" class="about">
+    <div class="p-3 mb-2 text-dark">
+        <div class="container text-white d-grid gap-3"  *ngFor="let estudio of educacion"  >
+            <div class="row p-2 bg-dark rounded">
+                <div class="col-4">
+                    <img [src]="estudio.imagen"  class="figure-img img-fluid rounded" alt="..." title="...">    
+                </div>
+                <div class="col-8 p-2">
+                    <h3>{{estudio.titulo}}</h3>
+                    <h5>{{estudio.institucion}}</h5>
+                    <p>{{estudio.periodo}}</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+</section>

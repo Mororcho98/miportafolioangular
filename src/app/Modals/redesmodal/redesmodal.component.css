@@ -1,0 +1,13 @@
+.modal-content{
+    background-color: black;
+    padding: 1rem;
+  }
+  .fs-5{
+    color: aliceblue;
+  }
+  .form-label{
+    color: rgba(240, 248, 255, 0.763);
+  }
+  .p-3{
+    background-color: rgb(0, 0, 0);
+  }

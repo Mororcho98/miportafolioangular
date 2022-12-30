@@ -1,0 +1,24 @@
+<!--Experiencia-->
+<h2 clas="title-experiencia">Experiencia</h2>
+<hr>
+<!-- contenedor tarjeta-->
+<section id="Experiencia" class="about">
+  <div class="container text-center">
+      <div class="row justify">   
+        
+        <!-- Cards-->
+        <div class="col-md-auto" *ngFor="let experiencia of experiencias">
+          <div class="card" style="width: 18rem;">
+              <img [src]="experiencia.logo" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">{{experiencia.titulo}}</h5>
+               <p class="card-text">{{experiencia.periodo}}</p>
+               <p class="card-text"><small>{{experiencia.descripcion}}</small></p>
+             </div>
+         </div>
+        </div>
+      </div>
+    </div>
+</section>
+ 
+

@@ -1,0 +1,45 @@
+ <!--Modal-->
+ <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Iniciar Sesion</h1>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <form [formGroup]="form"  (ngSubmit)="onEnviar($event)">>
+          <div class="modal-body">
+                
+            <div class="mb-3">
+                  <label for="email" class="form-label">Correo Electronico</label>
+                  <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"  formControlName="email" [class.border-danger]= "MailValid">
+            </div>
+            <div *ngIf="Mail?.errors  && Mail?.touched">    
+              <p *ngIf="Mail?.hasError('required')" class="error">
+                  El correo electronico es requerido.
+              </p>
+              <p *ngIf="Mail?.hasError('email')" class="error">
+                  El formato del correo electronico debe ser válido.
+                </p>
+            </div>
+            
+            <div class="mb-3">
+                  <label for="password" class="form-label">Contaseña</label>
+                  <input type="password" class="form-control" id="Password" formControlName="password" [class.border-danger]= "MailValid">
+            </div>
+            <div *ngIf="Password?.errors  && Password?.touched">
+              <p *ngIf="Password?.hasError('required')" class="error">
+                La contaseña es requerido.
+              </p>
+              <!--<p *ngIf="Password?.errors?.minLength" class="error">
+              </p>-->
+            </div>
+
+                <div class="modal-footer">
+                <button type="submit" class="btn btn-success">Entrar</button>
+              </div>
+              </div>
+            </form>
+      </div>
+    </div>
+  </div> 

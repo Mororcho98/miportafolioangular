@@ -1,0 +1,46 @@
+{
+    "titulo":"Full Stack Developer Jr",
+    "nombre": "Willian",
+    "apellido":"Torres",
+    "sobremi": "Informacion Personal Resumida, Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maxime aspernatur sint omnis maiores ipsum explicabo! Tenetur adipisci nulla accusamus architecto voluptatibus odit esse qui blanditiis, libero corrupti repellat dolor",
+
+    "experiencias": [
+        {
+            "id":1,
+            "logo": "../assets/IMG/-gray-background-pure-color.jpg",
+            "titulo": "Cargo (puesto) realizado",
+            "periodo":"00/00-00/00",
+            "descripcion": "tareas realizadas-detalles del puesto"
+        }
+    ],
+    
+    "educacion": [
+        {
+            "id":1,
+            "imagen": "../assets/IMG/-gray-background-pure-color.jpg",
+            "titulo": "Bachiller-Secundario en ciencias",
+            "institucion": "Unidad Educativa Colegio Calasanz",
+            "periodo":"09/11-06/16"
+        }
+    ],
+    
+    "habilidades":[
+        {
+            "id":1,
+            "habilidadhard": "FrontEnd",
+            "barrahard":"100",
+            "habilidadsoft": "Creatividad",
+            "barrasoft": "20"
+        }
+    ],
+
+    "proyectos": [
+        {
+            "id":1,
+            "imagen": "../assets/IMG/-gray-background-pure-color.jpg",
+            "nombre": "Portafolio",
+            "fecha":"15 de enero del 2023",
+            "link": "Link o enlace de proyecto"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+
+  section.about{
+    background-color: rgb(2, 171, 168);
+  }
+  .container.text-center{
+    display:flex;
+    justify-content:center;
+  }

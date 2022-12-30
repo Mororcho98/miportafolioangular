@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/*estilos generales*/
+body{
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    padding-bottom: 0rem;
+  }
+  .h2, h2{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    color: rgb(246, 246, 246);
+  }
+  hr{
+    color: aqua;
+  }
+  .carousel-item{
+    height: 500px;
+  
+  }

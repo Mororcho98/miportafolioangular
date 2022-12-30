@@ -1,0 +1,26 @@
+dl, ol, ul{
+  margin-top: 1%;
+}
+.social-icons li {
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  vertical-align:bottom;
+  display: inline;
+  font-size: 100%;
+  padding: 0.50em;
+  background-color:transparent;
+}
+/*logout*/
+i.fa-solid.fa-right-from-bracket{
+    color: rgb(255, 255, 255);
+  }
+  i.fa-solid.fa-right-from-bracket.fa-2xl:hover{
+    color: rgb(202, 8, 8);
+  }
+  /*redes*/
+  i.fa-solid.fa-square-pen.fa-2xl{
+    color: rgb(255,255,255);
+  }
+  i.fa-solid.fa-square-pen.fa-2xl:hover{
+    color: rgb(224, 200, 19);
+  }

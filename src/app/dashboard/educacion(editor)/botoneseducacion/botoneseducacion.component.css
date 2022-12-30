@@ -1,0 +1,15 @@
+i.fa-solid.fa-square-pen.fa-2xl.edit-icon{
+    color: rgb(255, 255, 255);
+    padding: 0.50rem;
+  }
+  i.fa-solid.fa-square-pen.fa-2xl.edit-icon:hover{
+    color: rgb(224, 200, 19);
+  }
+
+  i.fa-solid.fa-square-xmark.fa-2xl.icon-delete{
+    color: rgb(255, 255, 255);
+    padding: 0.50rem;
+  }
+  i.fa-solid.fa-square-xmark.fa-2xl.icon-delete:hover{
+    color: rgb(202, 8, 8);
+  }

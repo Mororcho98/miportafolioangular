@@ -1,0 +1,48 @@
+dl, ol, ul{
+    margin-top: 1%;
+}
+.social-icons li {
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    vertical-align:bottom;
+    display: inline;
+    font-size: 100%;
+    padding: 0.50em;
+    background-color:transparent;
+  }
+  i.fa-solid.fa-envelope.fa-2xl{
+    color: rgb(255, 255, 255);
+  }
+  i.fa-solid.fa-envelope.fa-2xl:hover{
+    color: rgb(255, 200, 2);
+  }
+  i.fa-brands.fa-square-github.fa-2xl{
+    color: rgb(255, 255, 255);
+  }
+  i.fa-brands.fa-square-github.fa-2xl:hover{
+    color: rgb(165, 13, 196);
+  } 
+  i.fa-brands.fa-square-facebook.fa-2xl{
+    color: rgb(255, 255, 255);
+  }
+  i.fa-brands.fa-square-facebook.fa-2xl:hover{
+    color: blue;
+  }
+  i.fa-brands.fa-linkedin.fa-2xl{
+    color: rgb(255, 255, 255);
+  }
+  i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: rgb(0, 145, 255);
+  }
+  i.fa-solid.fa-right-to-bracket.fa-2xl{
+    color: rgb(255, 255, 255);
+  }
+  i.fa-solid.fa-right-to-bracket.fa-2xl:hover{
+    color: rgb(24, 202, 8);
+  }
+  i.fa-brands.fa-square-instagram.fa-2xl{
+  color: rgb(255, 255, 255);
+  }
+  i.fa-brands.fa-square-instagram.fa-2xl:hover{
+    color: rgb(228, 19, 134);
+  }
